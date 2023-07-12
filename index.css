@@ -1,0 +1,112 @@
+.body {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.game {
+  background-color: #fff;
+  margin: 0;
+  padding: 20px 20px 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.game__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__container-players {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.game__container-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.game__buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.game__button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.game__button-rock {
+  background-image: url(./images/rock.png);
+  background-size: cover;
+}
+
+.game__button-paper {
+  background-image: url(./images/paper.jpg);
+  background-size: cover;
+}
+
+.game__button-scissors {
+  background-image: url(./images/scissors.png);
+  background-size: cover;
+}
+
+.game__image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+}
+
+.game__image-result {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+}
+
+.game__text {
+  margin: 0;
+}
+
+.game__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.game__buttons-title {
+  margin: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .choice__button {
+    width: 90px;
+    height: 90px;
+  }
+}

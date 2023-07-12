@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="body">
+    <div class="game" id="game__div">
+      <h1 class="game__title">Камни, бумаги, два ножа</h1>
+      <div class="game__container-players">
+        <div class="game__container">
+          <h2 class="game__text" id="player__text">Игрок:</h2>
+          <img
+            class="game__image"
+            id="player__image"
+            src="./images/start.png"
+            alt="Игрок"
+          />
+        </div>
+        <div class="game__container">
+          <h2 class="game__text" id="computer__text">Противник:</h2>
+          <img
+            class="game__image"
+            id="computer__image"
+            src="./images/start.png"
+            alt="Противник"
+          />
+        </div>
+      </div>
+      <div class="game__container-result">
+        <h2 class="game__text" id="result__text">Результат:</h2>
+        <img
+          class="game__image game__image-result"
+          id="result__image"
+          src="./images/start.png"
+          alt="Результат"
+        />
+      </div>
+      <div class="game__buttons">
+        <h2 class="game__buttons-title">Выбери своего бойца</h2>
+        <div class="game__buttons-container">
+          <button class="game__button game__button-rock" id="ROCK"></button>
+          <button
+            class="game__button game__button-paper"
+            id="PAPER"
+          ></button>
+          <button
+            class="game__button game__button-scissors"
+            id="SCISSORS"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
