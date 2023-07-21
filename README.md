@@ -1,9 +1,21 @@
-# Камень, ножницы, бумага
+![logo](./images/rps_logo.png)
 
-### Обзор
-Старая добра игра, чтобы убить время. 
+# Игра: Камень, ножницы, бумага / Rocks, paper, scissors game
 
-Сделано на:
+Классическая игра в "камень, ножницы, бумага". Вы можете выбрать один из трех вариантов и сразиться с компьютером. 
+Правила просты: Скала не любит бюрократию, бюрократия не любит срезание бюджета, срезание бюджета боится Скалы.
+
+Используемые технологии:
+* Javascript 
 * HTML
 * CSS
-* Javascript
+
+---
+
+Classic "rocks, paper, scissors" game. You may choose one of three options and fight against the computer.
+Rules are simple: The Rock doesn't like bureaucracy, bureaucracy doesn't like budget cuts and budget cuts are afraid of The Rock.
+
+Technologies:
+* Javascript 
+* HTML
+* CSS
