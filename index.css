@@ -1,3 +1,6 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
 .body {
   margin: 0;
   padding: 0;
@@ -6,13 +9,14 @@
   justify-content: center;
   align-items: center;
   background-color: #000;
+  font-family: 'Jura', Arial, san-serif;
 }
 
 .game {
   background-color: #fff;
   margin: 0;
   padding: 20px 20px 20px;
-  border: 1px solid red;
+  border: 3px solid #C52B33;
   border-radius: 20px;
 }
 
@@ -59,7 +63,7 @@
 .game__button {
   width: 100px;
   height: 100px;
-  border: 2px solid #000;
+  border: 2px solid #C52B33;
   border-radius: 50%;
 }
 
@@ -81,13 +85,13 @@
 .game__image {
   width: 100px;
   height: 100px;
-  border: 2px solid #000;
+  border: 2px solid #C52B33;
 }
 
 .game__image-result {
   width: 120px;
   height: 120px;
-  border: 2px solid #000;
+  border: 2px solid #C52B33;
 }
 
 .game__text {
@@ -98,6 +102,7 @@
   font-size: 25px;
   text-align: center;
   font-weight: 900;
+  color: #C52B33;
 }
 
 .game__buttons-title {
