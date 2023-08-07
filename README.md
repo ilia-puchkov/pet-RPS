@@ -1,4 +1,4 @@
-# Игра: Камень, ножницы, бумага / Rocks, paper, scissors game
+# Игра: Камень, ножницы, бумага
 
 ![logo](./images/rps_logo.png)
 
